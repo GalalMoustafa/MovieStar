@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieStar</string>
+    <string name="action_sort">Sort by</string>
+    <string name="title_activity_sort_fragment">sortFragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+
+</resources>
