@@ -75,7 +75,7 @@ public class DetailFragment extends Fragment {
         TextView title = (TextView) rootview.findViewById(R.id.MovieTitle);
         title.setText(fragmentMain.title.get(fragmentMain.clickedMovie));
         Picasso.with(getContext())
-                .load("http://image.tmdb.org/t/p/" + "w185/" + fragmentMain.poster.get(fragmentMain.clickedMovie).substring(1))
+                .load("http://image.tmdb.org/t/p/" + "w342/" + fragmentMain.poster.get(fragmentMain.clickedMovie).substring(1))
                 .into((ImageView) rootview.findViewById(R.id.posterView));
         TextView year = (TextView) rootview.findViewById(R.id.Year);
         year.setText(fragmentMain.releaseDate.get(fragmentMain.clickedMovie).substring(0, 4));
