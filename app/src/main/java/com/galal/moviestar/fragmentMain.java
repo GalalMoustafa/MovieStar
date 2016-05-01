@@ -133,7 +133,9 @@ public class fragmentMain extends Fragment {
             ImageView myImage ;
             if (convertView == null){
                 myImage = new ImageView(context);
-                myImage.setLayoutParams(new GridView.LayoutParams(360, ViewGroup.LayoutParams.MATCH_PARENT));
+                myImage.setScaleType(ImageView.ScaleType.FIT_XY);
+                myImage.setAdjustViewBounds(true);
+                myImage.setLayoutParams(new GridView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
 
             }
 
